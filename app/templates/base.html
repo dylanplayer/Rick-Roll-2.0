@@ -1,0 +1,27 @@
+<!-- base.html -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>{% block title %}{% endblock %}</title>
+
+    <link href="/static/style.css" rel="stylesheet">
+
+	</head>
+	<body>
+
+    <div class="content">
+
+			{% block body %}
+			{% endblock %}
+
+			<footer class="footer">
+				<a href="https://www.dylanplayer.com">© 2021 Dylan Player</a>
+			<footer>
+
+		</div>
+
+	</body>
+
+</html>

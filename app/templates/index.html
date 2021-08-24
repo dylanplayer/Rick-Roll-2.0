@@ -1,0 +1,16 @@
+
+
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block body %}
+<div class="jumbotron">
+  <h1>You are the {{ count }}th person rolled</h1>
+  <div class="videoContainer">
+    <iframe class="videoplayer" width="932" height="524" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+  </div>
+</div>
+
+{% endblock %}
